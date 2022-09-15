@@ -9,7 +9,7 @@ class Conta {
     set numero(numero) {
         this._numero = numero;
     }
-    get saldo() {
+    getSaldo() {
         return this._saldo;
     }
     debitar(valor) {

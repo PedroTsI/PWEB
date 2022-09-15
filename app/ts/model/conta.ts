@@ -16,7 +16,7 @@ class Conta {
         this._numero = numero;
     }
 
-    get saldo() {
+    getSaldo() {
         return this._saldo;
     }
 
@@ -35,4 +35,5 @@ class Conta {
         return `Número: ${this._numero} 
         - Saldo: ${this._saldo}`;
     }
+    
 }
